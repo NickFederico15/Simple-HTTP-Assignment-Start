@@ -30,7 +30,7 @@ const onRequest = (request, response) => {
       break;
     case '/dankmemes':
       imageHandler.getImage(request, response);
-      break;    
+      break;
     default:
       htmlHandler.getIndex(request, response);
       break;
